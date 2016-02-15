@@ -13,3 +13,6 @@
 [submodule "bundle/vim-notes"]
 	path = bundle/vim-notes
 	url = https://github.com/xolox/vim-notes
+[submodule "bundle/vim-geeknote"]
+	path = bundle/vim-geeknote
+	url = https://github.com/neilagabriel/vim-geeknote
