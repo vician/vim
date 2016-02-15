@@ -9,4 +9,4 @@ fi
 cd $(dirname $0)
 cd bundle
 
-git submodudle add $1
+git submodule add $1
