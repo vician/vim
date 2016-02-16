@@ -14,8 +14,8 @@ set encoding=utf8
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 " Always show the status line
 set laststatus=2
@@ -27,3 +27,5 @@ set nu
 
 execute pathogen#infect()
 filetype plugin indent on
+
+let g:vimwiki_list = [{'path': '~/Documents/wiki/'}]
