@@ -23,6 +23,8 @@ set laststatus=2
 " Pressing ,ss will toggle and untoggle spell checking
 map <leader>ss :setlocal spell!<cr>
 
+set spelllang=cs,en,csa
+
 set nu
 
 execute pathogen#infect()
