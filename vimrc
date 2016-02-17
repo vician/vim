@@ -30,4 +30,4 @@ set nu
 execute pathogen#infect()
 filetype plugin indent on
 
-let g:vimwiki_list = [{'path': '~/Documents/wiki/'}]
+let g:vimwiki_list = [{'path': '~/Documents/wiki/','path_html':'~/Documents/wiki-html/'},{'path': '~/martin@vician.cz/everywhere/wiki/','path_html':'~/Downloads/martin@vician.cz-wiki-html/'}]
