@@ -36,6 +36,9 @@ let g:vimwiki_list = [
 			\{'path': '~/martin@vician.cz/everywhere/wiki-public/','path_html':'~/Downloads/martin@vician.cz-wiki-public-html/'}
 			\]
 
+" Disable shortening URL
+let g:vimwiki_url_maxsave=0
+
 " Draw line on 80 collumn
 "set colorcolumn=+1        " highlight column after 'textwidth'
 "set colorcolumn=+1,+2,+3  " highlight three columns after 'textwidth'
@@ -63,3 +66,5 @@ endfunction
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+
+setlocal cm=blowfish2
